@@ -7441,5 +7441,10 @@ message MetricsEvent {
     // CustomSettings constant
     CUSTOM_SETTINGS = 1999;
 
+    // LessAOSP Metrics
+    LOSP = 2772;
+    LESSAOSP = 2773;
+    LESS_SETTINGS = 2774;
+    LESS_QS_TILES = 2775;
   }
 }
