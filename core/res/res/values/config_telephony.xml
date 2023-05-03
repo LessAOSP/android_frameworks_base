@@ -172,4 +172,9 @@
          only single logical modem, by using its data connection in addition to cellular IMS. -->
     <bool name="config_enable_virtual_dsda">false</bool>
     <java-symbol type="bool" name="config_enable_virtual_dsda" />
+
+    <!-- Boolean indicating whether allow sending null to modem to clear the previous initial attach
+         data profile -->
+    <bool name="allow_clear_initial_attach_data_profile">false</bool>
+    <java-symbol type="bool" name="allow_clear_initial_attach_data_profile" />
 </resources>
